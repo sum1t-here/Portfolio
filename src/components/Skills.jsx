@@ -1,6 +1,6 @@
 import Javascript from "../assets/images/js.webp";
 import Typescript from "../assets/images/Typescript.svg";
-import React from "../assets/images/react.webp";
+import React from "../assets/images/react-logo.svg";
 import Hono from "../assets/images/hono.png";
 import Express from "../assets/images/express.webp";
 import Next from "../assets/images/nextjs.webp";
@@ -47,11 +47,7 @@ function Skills() {
           <p>Library/Framework: </p>
           <ul className="flex gap-2 items-center">
             <li>
-              <img
-                src={React}
-                alt="React"
-                className="h-8 w-10 rounded-sm lg:w-0"
-              />
+              <img src={React} alt="React" className="h-10 w-10 rounded-sm" />
             </li>
             <li>
               <img src={Hono} alt="Hono" className="h-10 rounded-sm" />
