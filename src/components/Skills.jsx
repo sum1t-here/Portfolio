@@ -7,10 +7,12 @@ import Next from "../assets/images/nextjs.webp";
 import Git from "../assets/images/git.webp";
 import Figma from "../assets/images/figma.svg";
 import Cloudflare from "../assets/images/cloudflare.webp";
+import Mongo from "../assets/images/mongo.webp";
+import Psql from "../assets/images/postgresql.svg";
 
 function Skills() {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen">
+    <div className="flex flex-col justify-center items-center p-6 lg:min-h-screen">
       <p className=" font-outfit p-5 font-bold text-3xl">Professional Skills</p>
       <div>
         <p className="font-sans p-5">
@@ -47,7 +49,11 @@ function Skills() {
           <p>Library/Framework: </p>
           <ul className="flex gap-2 items-center">
             <li>
-              <img src={React} alt="React" className="h-10 w-10 rounded-sm" />
+              <img
+                src={React}
+                alt="React"
+                className="h-10 w-10 rounded-sm mt-5 lg:mt-0"
+              />
             </li>
             <li>
               <img src={Hono} alt="Hono" className="h-10 rounded-sm" />
@@ -57,6 +63,17 @@ function Skills() {
             </li>
             <li>
               <img src={Next} alt="Next" className=" h-20 rounded-sm" />
+            </li>
+          </ul>
+        </div>
+        <div className="flex items-center gap-2">
+          <p>Databse : </p>
+          <ul className="flex gap-2 items-center">
+            <li>
+              <img src={Mongo} alt="React" className="h-10 w-10 rounded-sm" />
+            </li>
+            <li>
+              <img src={Psql} alt="Hono" className="h-10 rounded-sm" />
             </li>
           </ul>
         </div>

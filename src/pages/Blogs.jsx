@@ -12,12 +12,12 @@ function Blogs() {
             alt="blogImage"
             className="h-80 rounded-lg lg:w-full w-25"
           />
-          <h1>Destructuring in Javascript</h1>
+          <h1 className=" font-sans text-xl">Destructuring in Javascript</h1>
           <a
             href="https://sumitmazumdar.in/unleashing-the-power-of-destructuring-in-javascript"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 underline"
+            className="text-blue-500 underline font-outfit"
           >
             Click here to read...
           </a>
@@ -28,19 +28,20 @@ function Blogs() {
             alt="blogImage"
             className="h-80 rounded-lg lg:w-full w-25"
           />
-          <h1>Templates in C++</h1>
+          <h1 className=" font-sans text-xl">Templates in C++</h1>
           <a
             href="https://sumitmazumdar.in/template-in-cpp"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 underline"
+            className="text-blue-500 underline font-outfit"
           >
             Click here to read...
           </a>
         </div>
       </div>
       <div className="absolute bottom-0 right-0 flex items-center justify-end p-4">
-        <span className="mr-2">Visit for more</span> <FaExternalLinkSquareAlt />
+        <span className="mr-2 underline cursor-pointer">Visit for more</span>{" "}
+        <FaExternalLinkSquareAlt className="cursor-pointer" />
       </div>
     </div>
   );

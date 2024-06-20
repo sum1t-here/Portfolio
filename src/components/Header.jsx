@@ -9,7 +9,7 @@ function Header() {
         </Link>
       </div>
       <div>
-        <ul className="flex flex-row gap-5 font-inter text-xs font-normal lg:font-medium lg:text-base">
+        <ul className="flex flex-row gap-5 font-inter text-xs font-normal lg:font-medium lg:text-base items-center">
           <li>
             <NavLink
               to="/"
@@ -48,6 +48,11 @@ function Header() {
             >
               Blogs
             </NavLink>
+          </li>
+          <li>
+            <button className="bg-[#A1DDC7] rounded-btn p-2 hover:bg-[#98dbc2] hover:h-11 hover:w-20">
+              Resume
+            </button>
           </li>
         </ul>
       </div>
