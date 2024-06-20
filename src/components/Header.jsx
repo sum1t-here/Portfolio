@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex flex-row shadow-stone-50 sticky top-0 z-10 h-16 items-center bg-slate-50 justify-between px-5 lg:px-20">
+    <div className="flex flex-row shadow-md sticky top-0 z-10 h-16 items-center bg-slate-50 justify-between px-5 lg:px-20">
       <div className="font-sans font-semibold lg:font-bold">
         <Link to="/" className=" text-xs lg:text-xl">
           Sumit Mazumdar

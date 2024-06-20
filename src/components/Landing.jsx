@@ -4,7 +4,7 @@ import { BiSolidNavigation } from "react-icons/bi";
 
 function Landing() {
   return (
-    <div className="bg-primary lg:min-h-screen">
+    <div className="bg-primary lg:min-h-screen shadow-md">
       <div className="p-5">
         <h1 className="text-gray-50 flex items-center justify-center font-outfit text-[40px] lg:text-[300px]">
           Full Stack Developer

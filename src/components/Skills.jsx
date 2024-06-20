@@ -12,7 +12,7 @@ import Psql from "../assets/images/postgresql.svg";
 
 function Skills() {
   return (
-    <div className="flex flex-col justify-center items-center p-6 lg:min-h-screen">
+    <div className="flex flex-col justify-center items-center p-6 lg:min-h-screen shadow-md">
       <p className=" font-outfit p-5 font-bold text-3xl">Professional Skills</p>
       <div>
         <p className="font-sans p-5">
